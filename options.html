@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon/favicon.ico" >
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Tiêu đề form đăng ký -->
+    <h1>Đăng ký tài khoản</h1>
+    <!-- Nội dung cần điền -->
+    <div>
+        <label for="ho-ten" required>Họ và tên</label>
+        <input type="text" id="ho-ten" placeholder="Nguyễn Văn A">
+        <hr>
+    </div>
+    <div>
+        <label for="ngay-sinh">Ngày sinh</label>
+        <input type="date" id="ngay-sinh">
+        <hr>
+        <label>Giới tính</label>
+        <label for="nam"><input type="radio" id="nam" checked>Nam</label>
+        <label for="nu"><input type="radio" id="nu">Nữ</label>
+        
+    </div>
+    <div>
+        <hr>
+        <label for="email">Địa chỉ mail</label>
+        <input type="email" placeholder="example@gmail.com">
+    </div>
+    <div>
+        <hr>
+        <label for="sdt">Số điện thoại<input type="text" placeholder="Số điện thoại 11 số"></label>
+    </div>
+    <label for="loai-tai-khoan"></label>
+    <select name="loai-tai-khoan" id="loai-tai-khoan">
+        <option value="1">Tài khoản sinh viên</option>
+        <option value="2">Tài khoản giáo viên</option>
+        <option value="3">Tài khoản người xem</option>
+        <option value="4">Tài khoản khác</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Lưu thông tin</button>
+
+
+
+    <!-- Xác nhận thông tin -->
+
+</body>
+
+</html>
